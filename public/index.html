@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ActivityTracker</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main class="app">
+            <h>Task Tracker</h>
+            <p class="count" id="count"></p>
+
+            <form id="task-form" class="add">
+                <input id="task-input" type="text" placeholder="what needs to be done?" autocomplete="off" />
+                <button type="submit">Add activity</button>
+            </form>
+            <p id="error" class="error" role="alert"></p>
+
+            <ul id="task-list" class="list"></ul>
+            <p id="empty" class="empty" >No tasks yet. Add your first one above</p>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "Simple practice project: front end + Node/Express back end",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
